@@ -1,0 +1,65 @@
+body{
+    background-image: url('./../Images/signup.jpg'); /* Adjust the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
+    /* Other styles you may want to apply */
+    
+   
+}
+
+.login-form
+{
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    align-items: center;
+    padding-top: 40px;
+
+    background: rgba( 123, 120, 120, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+
+    margin-top: 150px;
+    margin-left: 550px;
+}
+
+input
+{
+    height: 20px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+.login-form-button
+{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color:  #009933;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    
+}
+
+.login-form-status-msg
+{
+    background-color: azure;
+    width: 300px;
+    height: 40px;
+    padding-top: 20px;
+    margin-left: 550px;
+
+    background: rgba( 123, 120, 120, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
